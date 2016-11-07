@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/jx_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/jx_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jx_item_bbbb"/>
+        <TextView
+            android:id="@+id/jx_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小李君"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/jx_image"
+            android:layout_alignTop="@+id/jx_image"/>
+        <TextView
+            android:id="@+id/jx_text_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="资深买买买达人"
+            android:layout_toRightOf="@+id/jx_image"
+            android:layout_alignBottom="@+id/jx_image"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/jx_image_list"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+    <TextView
+        android:id="@+id/jx_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textSize="20sp"/>
+</LinearLayout>
